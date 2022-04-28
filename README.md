@@ -1,4 +1,4 @@
-# Strateos Excericse
+# Strateos Coding Assessment
 
 ## Moving containers with a robotic arm
 
