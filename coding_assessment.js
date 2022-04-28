@@ -1,22 +1,8 @@
-// find index of _ ->  look for potential swap from the num
-//when rank === index
-//do the swap 
-//nested or hash
-
 function shortestPossibleMove(containers) { 
     //convert string containers into the ranked array
     //the element of rankArray reperesent which index of that element belong to 
     let rankArray = convertToNumber(containers); 
     let moveMent = [];
-    // console.log(rankArray)
-
-    //find _ =>3 rankArray.length -1
-    //find index of _  => 2
-    //find rank index to swap
-    //e.g if _ is at position 2 -> looking for rank number 2 
-    //swap 2, 3 => push position at 2 then position at 3 => [1, 2]
-    // [1, 3, 2, 0] 
-    // repeat until sorted
 
     // loop through the ranked array
     for (let i = 0; i < rankArray.length; i++) { 
@@ -96,5 +82,8 @@ console.log(shortestPossibleMove("_CBA"));
 console.log(shortestPossibleMove("ACB_"));
 console.log(shortestPossibleMove("_CBA"));  
 console.log(shortestPossibleMove("C_BA"));  
+
+//Notes
+//If I have more time will try to use hash map to improve the time complexity
 
 
