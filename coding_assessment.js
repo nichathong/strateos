@@ -83,7 +83,6 @@ console.log(shortestPossibleMove("ACB_"));
 console.log(shortestPossibleMove("_CBA"));  
 console.log(shortestPossibleMove("C_BA"));  
 
-//Notes
-//If I have more time will try to use hash map to improve the time complexity
+
 
 
